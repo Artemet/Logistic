@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Lato";
+/*// адрес шрифта и тип*/
+    src: url("/fonts/Lato-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+body{
+    margin: 0;
+}
+.content{
+    min-height: 100vh;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    background-color: #15142A;
+}
+.content_part{
+    position: absolute;
+    background-attachment: fixed;
+    background-size: auto 100vw;
+    /*height: 150vh;*/
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.4;
+    filter: brightness( 100% ) contrast( 100% ) saturate( 0% ) blur( 0px ) hue-rotate( 0deg );
+    background-image: url("../res/img27.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.header_part{
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: "Montserrat-Thin";*/
+    top: 0;
+    position: relative;
+}
